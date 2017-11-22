@@ -7,7 +7,9 @@
     a {color: blue;
     }
 
-
+      #background {
+        background-color: orange;
+      }
       #exec-bio {
         background-color: lightgrey;
       }
@@ -16,6 +18,9 @@
       }
       .bio-box a {
           color: green;
+        }
+        .ground {
+          background-color: azure;
         }
     </style>
   </head>
@@ -36,13 +41,13 @@
     <div id="exec-bio" class="bio-box">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box" id="background">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="bio-box ground">
       <a href="http://example.com/">I'm a link</a>
     </div>
-    <div class="bio-box">
+    <div class="ground bio-box">
       <a href="http://example.com/">I'm a link</a>
     </div>
   </body>
